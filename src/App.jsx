@@ -100,7 +100,7 @@ function App() {
         </div>
 
         {todos.length === 0 ? (
-          <p>Cargando tareas...</p>
+          <p>Carga las tareas</p>
         ) : (
           todos.map((todo) => {
             return (
